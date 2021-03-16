@@ -10,7 +10,7 @@
 # Methods and Functions (KEYWORD2)
 #######################################
 
-Begin	KEYWORD2
+begin	KEYWORD2
 read	KEYWORD2
 
 #######################################

@@ -49,15 +49,15 @@ void loop() {
 
 ## Repository Contents
 
-- /examples – example sketch for the library
+- /example – example sketch for the library
 - /src – source files for the library (.cpp, .h)
 
 ## Features
 
-- Read IO inputs state
-- Read IO transition state 
+- Read IO port state
+- Read IO port transition state 
 
-The input states returned vai an uint8_t parameter of the `read-funtion` where the MSB matches the I7 and the LSB the I0 input.
+The input states returned via an uint8_t parameter of the `read-funtion` where the MSB matches the I7 and the LSB the I0 input.
 The transition states also returned via an uint8_t parameter of the `read-funtion` where the MSB matches the F7 and the LSB the F0. The flags will be resetted after reading.
 
 ## Contribute

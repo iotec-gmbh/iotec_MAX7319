@@ -1,6 +1,6 @@
 /* Copyright (c) 2021 iotec GmbH */
-#ifndef IOTEC_MAX7319_H
-#define IOTEC_MAX7319_H
+#ifndef IOTEC_MAX7319_57B3DF59221C414AA5F37BB47D214421
+#define IOTEC_MAX7319_57B3DF59221C414AA5F37BB47D214421
 
 #include <Arduino.h>
 #include <Wire.h>
@@ -38,9 +38,8 @@ public:
   bool read(uint8_t *port, uint8_t *flags);
 
 private:
-  // I2C address
   uint8_t m_i2cAddr;
   TwoWire &m_i2c;
 };
 
-#endif // IOTEC_MAX7319_H
+#endif // IOTEC_MAX7319_57B3DF59221C414AA5F37BB47D214421
