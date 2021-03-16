@@ -11,6 +11,8 @@
 iotec_MAX7319 inputs(0x68);
 uint32_t now = 0;
 uint16_t lastSend = 0;
+ uint8_t ports = 0;
+ uint8_t flags = 0;
  
 void setup() {
     // Init serial interface for debugging
